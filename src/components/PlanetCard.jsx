@@ -5,7 +5,7 @@ const PlanetCard = ({ planet, children }) => {
     return (
         <motion.div
             whileHover={{ scale: 1.02 }}
-            className="bg-black/20 backdrop-blur-md border border-white/10 p-8 rounded-3xl w-96 flex flex-col gap-6 hover:bg-black/30 transition-colors relative overflow-hidden"
+            className="bg-black/20 backdrop-blur-md border border-white/10 p-8 rounded-3xl w-full max-w-sm md:w-96 flex flex-col gap-6 hover:bg-black/30 transition-colors relative overflow-hidden shrink-0"
         >
             {/* Glow effect */}
             <div className={`absolute -top-20 -right-20 w-40 h-40 rounded-full blur-[100px] opacity-20 ${planet.color}`} />

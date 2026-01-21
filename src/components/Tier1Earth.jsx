@@ -14,7 +14,7 @@ const Tier1Earth = () => {
             </div>
 
             <motion.div
-                className="flex gap-4 p-8 overflow-x-auto w-full no-scrollbar justify-center items-center"
+                className="flex gap-4 p-8 overflow-x-auto w-full no-scrollbar justify-start md:justify-center items-center h-full"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
